@@ -43,7 +43,7 @@ EXPERIMENT_TIMEOUT=3600
 EXPERIMENT_MEMORY=13000
 
 # Here we use -only-output-states-covering-new by default to save disk space.
-KLEE_DEFAULT_OPTIONS=-allocate-determ -search=dfs -max-memory=${EXPERIMENT_MEMORY} -max-time=${EXPERIMENT_TIMEOUT} -only-output-states-covering-new -allocate-determ
+KLEE_DEFAULT_OPTIONS=-allocate-determ -search=dfs -max-memory=${EXPERIMENT_MEMORY} -max-time=${EXPERIMENT_TIMEOUT} -only-output-states-covering-new
 
 LLBMC_EXPERIMENT_CSV=llbmc-${EXPERIMENT_CSV}
 
