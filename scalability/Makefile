@@ -34,7 +34,8 @@ DEFAULT_EXPERIMENT_SET=malloc9 malloc18 malloc27 malloc36
 # Standard experiment set
 DEFAULT_EXPERIMENT_SET=bitcount16 bitcount32 bubble6 bubble9 compress cut_bytes cut_fields expint fac fermat fibcall graycode insertsort11 janne_complex lcdnum magic matrixsqrt merge multiply ns nsichneu popcount prime queens recursion Regexp sample send-more-money statemate tr tritype ud wegner
 
-DEFAULT_EXPERIMENT_TYPE_SET=.klee1 .klee2 .tx1 .tx2 .tx2a .tx3 .tx4 .tx5 .tx6 .klee11 .tx11 .tx12 .tx13 .tx14
+# For running Tracer-X KLEE in KLEE mode (.klee1) and inerpolation mode (.tx1) with DFS and Z3
+DEFAULT_EXPERIMENT_TYPE_SET=.klee1 .tx1
 
 EXPERIMENT_CSV=experiment.csv
 

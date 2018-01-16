@@ -46,7 +46,8 @@ PRINTF_OPTIONS=--sym-args 0 3 10 --sym-files 2 12 -sym-stdin 12 --sym-stdout
 # Coreutils benchmark set for November/December 2016 experiment
 DEFAULT_EXPERIMENT_SET=comm cut dirname expand factor join split sum uniq
 
-DEFAULT_EXPERIMENT_TYPE_SET=.klee1 .klee2 .tx1 .tx2 .tx3 .tx4 .tx5 .tx6 .klee11 .tx11 .tx12 .tx13 .tx14
+# For running Tracer-X KLEE in KLEE mode (.klee1) and inerpolation mode (.tx1) with DFS and Z3
+DEFAULT_EXPERIMENT_TYPE_SET=.klee1 .tx1
 
 EXPERIMENT_CSV=experiment.csv
 

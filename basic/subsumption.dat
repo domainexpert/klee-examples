@@ -62,7 +62,7 @@ pointer_wp4.c		8
 pointer_wp5.c		78
 pointer_wp6.c		2
 polynomial.c		0
-queens.c		36
+queens.c		42
 recursion1.c		0
 recursion2.c		28
 regexp_iterative.c	66
